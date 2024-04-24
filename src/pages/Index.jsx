@@ -7,7 +7,7 @@ const ScenePhotographyComponent = ({ direction_photography, image_generation_res
     <VStack align="start" p={4} border="1px" borderColor="gray.200" borderRadius="md">
       <Heading size="md">Photography Direction</Heading>
       <Text>{direction_photography}</Text>
-      <Image src={image_generation_result} alt="Scene Storyboard" />
+      <Image src={image_generation_result} alt="Scene Storyboard" boxSize="100px" objectFit="cover" />
       <Text>
         <strong>Scene:</strong> {scene}
       </Text>
